@@ -1,0 +1,138 @@
+@media screen and (max-width: 768px) {
+
+
+    
+    .menu-toggle {
+        display: block;
+        cursor: pointer;
+        font-size: 28px;
+    }
+
+ nav{ 
+    flex-wrap: wrap;
+    position: relative;
+    padding: 10px 0;
+}
+.header nav ul {
+    flex-direction: column;
+    width: 100%;
+    display: none;
+    margin-top: 10px;
+}
+.header nav ul li {
+    padding: 10px 0;
+    text-align: center;
+}
+nav ul.active {
+    display: flex;
+    flex-direction: column;
+}
+
+.heroSection{
+    flex-direction: column;
+    text-align: center;
+    padding: 0;
+}
+.heroleft h1{
+    font-size: 2rem;
+}
+.heroleft{
+    width: 100%;
+    align-items: center;
+}
+
+.heroright{
+    width: 100%;
+}
+
+/* ----- */
+.section-w{
+    /* padding: 0; */
+    text-align: center;
+    flex-direction: column;
+}
+.sw-left{
+    width: 100%;
+    align-items: center;
+}
+.sw-left h2{
+    font-size: 1.7rem;
+}
+.sw-
+.sw-right{
+    width: 100%;
+}
+.sw-right img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+
+/* ------plans---- */
+.plan-header{
+    width: 80%;
+}
+.plan-header h2{
+    font-size: 1.7rem;
+}
+.planb-main{
+    flex-direction: column;
+    margin: 10% 10%;
+}
+
+.p-boxx {
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+.planb-main > div:nth-child(2) {
+    transform: scale(1);
+}
+
+.clients{
+    padding: 0;
+    background-color: aliceblue;
+}
+
+
+.clients-main{
+    flex-direction: column;
+}
+
+.client-boxx{
+    width: fit-content;
+}
+
+.spons-imgs{
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.f-lower{
+    flex-direction: column;
+    align-items: center;
+}
+
+.f-column{
+    width: 80%;
+    text-align: center;
+    margin-top: 20px;
+}
+.f-column.flex{
+    align-items: center;
+}
+.f-bottom{
+    flex-direction: column;
+}
+.f-bottom ul{
+    flex-direction: column;
+    text-align: center;
+}
+.social-icons {
+    margin-top: 20px;
+ }
+
+
+}
